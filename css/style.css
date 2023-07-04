@@ -198,6 +198,7 @@ nav ul li a{
 
 /* FIN DEL ESTILO DE HEADER */
 
+/*ESTILOS BODY*/
 body{
     background-color: #203A73;
     color: white;
@@ -243,18 +244,16 @@ section img {
     
 }
 
-/* Estilo index */
-.texto-index{
+/* Estilo index , experience, roam, middle, jungle,  gold  */
+.texto-index, .texto-experience, .texto-roam, .texto-middle, .texto-jungle, .texto-gold{
     margin: 10px 20px;
     text-align: justify;
 }
 
-.index{
+.index, .experience, .roam, .middle, .jungle, .gold{
     color: #e4c829;
     font-family: 'Museum';
 }
-
-
 
 
 
