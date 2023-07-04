@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+@font-face {
+    font-family:"Museum";
+    src: url(../font/LTMuseum-Bold.ttf);
+}
+
+/* ESTILO DEL HEADER */
+
+
+nav{
+    background-color:#0E0D38 ;
+    height: 80px;
+    width: 100%;
+
+}
+
+.enlace {
+    position: absolute;
+    padding:20px 50px ;
+}
+
+.logo {
+    height: 40px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color:white;
+    font-size: 23px;
+    padding: 7px 7px;
+    text-transform: uppercase;
+    font-family: "Museum";
+}
+
+.menu ul li:hover{
+    transform: scale(1.1);
+}
+
+.menu ul li a:hover{
+    color: #e3c939;
+    transform: scale(1.1);
+
+}
+
+.menu-icon{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width:1048px) {
+    .enlace{
+        padding-left: 21px;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:952px) {
+    .enlace{
+        padding-left: 19px;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:858px) {
+    .menu-icon{
+        display: block;
+    }
+    ul{
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #0E0D38;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all .5s;
+        
+        
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    li a:hover{
+        color: #e3c939;
+        transform: scale(1.1);
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+} 
+
+/* header {
+    width: 100%;
+    height: 90px;
+    background-color: #0E0D38;
+}
+
+.interior{
+    max-width: 100%;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.logo{
+    float: left;
+    padding: 5px 20px 0;
+}
+
+.logo img{
+    height: 80px;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.menu{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    z-index: 1000;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.menu ul li{
+    display: inline-block;
+    position: relative;
+    transform: .3s linear;
+    z-index: 1000;
+
+}
+
+.menu ul li:hover{
+    transform: scale(1.1);
+}
+
+.menu ul li a{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 23px ;
+    font-weight: bold;
+    padding: 12px 20px;
+    transition: .3s linear;
+}
+
+.menu ul li a:hover{
+    color: #e3c939;
+    transform: scale(1.1);
+
+} */
+
+/* FIN DEL ESTILO DE HEADER */
+
+body{
+    background-color: #203A73;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+
+h1  {
+    font-family: "Museum";
+    color: #d9be24;
+    display:block;
+    justify-content: center;
+    text-align: center;  
+    margin:10px;
+    
+}
+
+
+h2  {
+    font-family: "Museum";
+    color: #d9be24;
+    display:block;
+    text-align: center;
+    margin:10px;
+    
+}
+
+section {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+section img {
+    display: inline-block;
+    width: 240px;
+    height: 390px;
+    border: 1px solid whitesmoke;
+    
+}
+
+/* Estilo index */
+.texto-index{
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+.index{
+    color: #e4c829;
+    font-family: 'Museum';
+}
+
+
+
+
+
+
+
+
+/* ESTILO DE FOOTER */
+footer{
+    background-color: #0E0D38;
+    height: auto;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    color: white;
+    margin-top: auto;
+    border-top: 1px solid white;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-family: 'Museum';
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social a i{
+    font-size: 1.1rem;
+    transition: color 0.7s ease;
+}
+
+.social a:hover{
+    color: #e3c939;
+}
+
+.footer-bottom{
+    background: #070621;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+}
+
+/* FIN ESTILO DE FOOTER */
