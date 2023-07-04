@@ -48,6 +48,7 @@ nav ul li a{
     padding: 7px 7px;
     text-transform: uppercase;
     font-family: "Museum";
+    text-decoration: none;
 }
 
 .menu ul li:hover{
@@ -118,6 +119,7 @@ nav ul li a{
 
     nav ul li a{
         font-size: 20px;
+        
     }
 
     li a:hover{
@@ -129,73 +131,6 @@ nav ul li a{
         left: 0;
     }
 } 
-
-/* header {
-    width: 100%;
-    height: 90px;
-    background-color: #0E0D38;
-}
-
-.interior{
-    max-width: 100%;
-    padding: 0 10px;
-    margin: auto;
-}
-
-.logo{
-    float: left;
-    padding: 5px 20px 0;
-}
-
-.logo img{
-    height: 80px;
-}
-
-.logo img:hover {
-    transform: scale(1.1);
-}
-
-.menu{
-    float: right;
-    display: flex;
-    align-items: center;
-    min-height: 90px;
-    z-index: 1000;
-}
-
-.menu ul {
-    list-style: none;
-    padding: 0 10px;
-}
-
-.menu ul li{
-    display: inline-block;
-    position: relative;
-    transform: .3s linear;
-    z-index: 1000;
-
-}
-
-.menu ul li:hover{
-    transform: scale(1.1);
-}
-
-.menu ul li a{
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 23px ;
-    font-weight: bold;
-    padding: 12px 20px;
-    transition: .3s linear;
-}
-
-.menu ul li a:hover{
-    color: #e3c939;
-    transform: scale(1.1);
-
-} */
-
 /* FIN DEL ESTILO DE HEADER */
 
 /*ESTILOS BODY*/
@@ -243,6 +178,7 @@ section img {
     border: 1px solid whitesmoke;
     
 }
+/*FIN ESTILOS BODY*/
 
 /* Estilo index , experience, roam, middle, jungle,  gold  */
 .texto-index, .texto-experience, .texto-roam, .texto-middle, .texto-jungle, .texto-gold{
@@ -254,7 +190,7 @@ section img {
     color: #e4c829;
     font-family: 'Museum';
 }
-
+/*FIN ESTILOS INDEX, EXPERIENCE, ROAM, MIDDLE, JUNGLE, GOLD*/
 
 
 
