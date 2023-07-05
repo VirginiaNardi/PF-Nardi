@@ -183,21 +183,23 @@ section img {
     border: 1px solid whitesmoke;
     
 }
-/*FIN ESTILOS BODY*/
+
 
 /* Estilo index , experience, roam, middle, jungle,  gold  */
-.texto-index, .texto-experience, .texto-roam, .texto-middle, .texto-jungle, .texto-gold{
+.texto-index, .texto-experience, .texto-roam, .texto-middle, .texto-jungle, .texto-gold, .texto-contacto{
     margin: 10px 20px;
     text-align: justify;
+    font-size:  1.125em;
 }
 
 .index, .experience, .roam, .middle, .jungle, .gold{
     color: #e4c829;
     font-family: 'Museum';
+    font-size:  1.125em;
 }
 /*FIN ESTILOS INDEX, EXPERIENCE, ROAM, MIDDLE, JUNGLE, GOLD*/
 
-
+/*FIN ESTILOS BODY*/
 
 
 
