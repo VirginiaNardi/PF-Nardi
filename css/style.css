@@ -4,7 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-
 }
 
 @font-face {
@@ -95,8 +94,6 @@ nav ul li a{
 
 
 @media (max-width:858px) {
-
-
     .menu-icon{
         display: block;
     }
@@ -108,11 +105,7 @@ nav ul li a{
         top: 80px;
         left: 100%;
         text-align: center;
-        transition: all .5s;
-        
-        
-        
-        
+        transition: all .5s;  
     }
 
     nav ul li{
@@ -158,6 +151,7 @@ h1  {
     text-align: center;  
     margin:10px;
     
+    
 }
 
 
@@ -185,19 +179,62 @@ section img {
 }
 
 
-/* Estilo index , experience, roam, middle, jungle,  gold  */
+/* Estilo de los textos explicativos*/
 .texto-index, .texto-experience, .texto-roam, .texto-middle, .texto-jungle, .texto-gold, .texto-contacto{
-    margin: 10px 20px;
+    
     text-align: justify;
-    font-size:  1.125em;
+    margin-bottom:10px ;  
+    font-size: 17px; 
 }
 
 .index, .experience, .roam, .middle, .jungle, .gold{
     color: #e4c829;
     font-family: 'Museum';
     font-size:  1.125em;
+    
 }
-/*FIN ESTILOS INDEX, EXPERIENCE, ROAM, MIDDLE, JUNGLE, GOLD*/
+
+.desarrollo {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media (wax-width:600px){
+    h1 {
+        font-size: 20px;
+
+    }
+
+    .texto-index, .texto-experience, .texto-roam, .texto-middle, .texto-jungle, .texto-gold, .texto-contacto{
+        font-size: 16px;
+    }
+}
+
+@media (wax-width:768px){
+    h1 {
+        font-size: 22px;
+
+    }
+
+    .texto-index, .texto-experience, .texto-roam, .texto-middle, .texto-jungle, .texto-gold, .texto-contacto{
+        font-size: 18px;
+    }
+}
+
+@media (wax-width:1024px){
+    h1 {
+        font-size: 28px;
+
+    }
+
+    .texto-index, .texto-experience, .texto-roam, .texto-middle, .texto-jungle, .texto-gold, .texto-contacto{
+        font-size: 20px;
+    }
+}
+
+
+/*FIN ESTILOS textos explicativos*/
 
 /*FIN ESTILOS BODY*/
 
