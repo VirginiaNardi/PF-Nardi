@@ -250,16 +250,75 @@ section img {
     padding: 5px;
 
 }
-
-
 /* FIN ESTILOS GALERIAS*/
 
 /*FIN ESTILOS BODY*/
+
+/*ESTILOS FORMULARIOS*/
+
+
+/*FIN ESTILOS FORMULARIOS*/
 
 
 
 /* ESTILO DE FOOTER */
 footer{
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0E0D38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer h3 a{
+    text-decoration: none;
+}
+.juego {
+    font-family: "Museum";
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.contenedor.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.icono-redes a i{
+    width: 40px;
+    height: 40px;
+    
+}
+
+footer div.contenedor.redes a.icono-redes i{
+    color: white;
+    background-color: aliceblue;
+}
+
+footer h3 a:hover{
+    color: #e3c939;
+}
+
+
+.icono-redes:hover{
+    color: #e3c939;
+
+}
+
+.copyright {
+    color:#f2f2f2;
+    opacity: .3s;
+    text-align: center;
+}
+
+/* footer{
     background-color: #0E0D38;
     height: auto;
     width: 100%;
@@ -314,7 +373,7 @@ footer{
 
 .social a i{
     font-size: 1.1rem;
-    transition: color .4s ease;
+    ;
 }
 
 .social a:hover{
@@ -340,7 +399,7 @@ footer{
     font-weight: 200;
 
 }
-
+ */
 
 
 /* FIN ESTILO DE FOOTER */
