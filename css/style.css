@@ -236,6 +236,24 @@ section img {
 
 /*FIN ESTILOS textos explicativos*/
 
+/*ESTILOS GALERIAS*/
+#galeria img {
+    width:100%;
+    height: auto;
+    border: 1px solid whitesmoke ;
+    
+    
+}
+
+#galeria .col-6{
+    margin: 0;
+    padding: 5px;
+
+}
+
+
+/* FIN ESTILOS GALERIAS*/
+
 /*FIN ESTILOS BODY*/
 
 
@@ -249,7 +267,7 @@ footer{
     padding-top: 40px;
     color: white;
     margin-top: auto;
-    border-top: 1px solid white;
+
 }
 
 .footer-content{
@@ -261,7 +279,7 @@ footer{
 }
 
 .footer-content h3{
-    font-family: 'Museum';
+    font-family: "Museum";
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
@@ -291,20 +309,22 @@ footer{
 .social a {
     text-decoration: none;
     color: #fff;
+
 }
 
 .social a i{
     font-size: 1.1rem;
-    transition: color 0.7s ease;
+    transition: color .4s ease;
 }
 
 .social a:hover{
     color: #e3c939;
+
 }
 
 .footer-bottom{
     background: #070621;
-    width: 100vw;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
@@ -320,5 +340,7 @@ footer{
     font-weight: 200;
 
 }
+
+
 
 /* FIN ESTILO DE FOOTER */
