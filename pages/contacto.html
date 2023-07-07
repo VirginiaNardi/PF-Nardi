@@ -40,27 +40,39 @@
 <h1>CONTACTO</h1>
 <div class="desarrollo">
     <p class="texto-contacto">
-        Danos tu opinion al respecto, saber que es lo que te gustaria ver, contenido que desees ver o cambios que harias
+        <!-- Contanos que te parecio la pagina,  -->
+        <!-- Danos tu opinion al respecto, saber que es lo que te gustaria ver, contenido que desees ver o cambios que harias -->
+        Escribinos queremos conocerte, saber que opinas de la pagina, que te gustaría ver o que cambios harias. ¿Conoces el juego? ¿Cual es tu personaje favorito?
     </p>
+    <p class="texto-contacto"></p>
     <p class="texto-contacto">
         Tu opinion nos interesa!
     </p>
 </div>
 
-<form>
-    <div>
-        <label for="nombre">Nombre</label>
-        <input type="text" placeholder="Ingrese su nombre">
-    </div>
-    <div>
-        <label for="email">Email</label>
-        <input type="text" placeholder="Ingrese su Email">
-    </div>
-    <div>
-        <label for="mensaje">Su mensaje</label>
-        <input type="text" placeholder="Deje su mensaje aqui">
-    </div>
-</form>
+<div class="container">
+    <h2>DEJANOS TU MENSAJE</h2>
+    <form>
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su Nombre">
+        </div>
+        <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" class="form-control" id="apellido" placeholder="Ingrese su Apellido">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingrese su Email">
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="form-control tamaño" id="mensaje" rows="4" placeholder="Ingrese su mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary boton">Enviar</button>
+        <button type="reset" class="btn btn-secondary boton">Cancelar</button>
+    </form>
+</div>
 
 </main>
 
@@ -76,7 +88,7 @@
         <a href="https://www.tiktok.com/@mlbbttofficial?lang=en" target="_blank" class="icono-redes"><i class='bx bxl-tiktok' ></i></a>
         <a href="https://m.mobilelegends.com/en" class="icono-redes"><i class='bx bx-globe'></i></a>
     </div>
-    <span class="copyright">&copy;2023. VirginiaNardi. Pagina sin fines de lucro</span>
+    <span class="copyright">&copy;2023. VirginiaNardi. Pagina sin fines de lucro.</span>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> 
 </body>
