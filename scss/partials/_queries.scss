@@ -1,0 +1,97 @@
+/*Media del nav*/
+@media (max-width:1048px){
+    nav{
+        .enlace{
+            padding-left: 21px;
+        }
+        ul{
+            li{
+                a{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:952px){
+    nav{
+        .enlace{
+            padding-left: 19px;
+        }
+        ul{
+            li{
+                a{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:858px){
+    nav{
+        .menu-icon{
+            display: block;
+        }
+
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color:#0e0d38;
+            top: 80px;
+            left: 100%;
+            text-align: center;
+            transition: 0.5s;
+
+            li{
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+
+                a{
+                    font-size: 20px;
+
+                    &:hover{
+                        color: #e3c939;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+/*Fin media queries del nav*/
+
+/*Media queries textos*/
+@media (wax-width:600px){
+    h1 {
+        font-size: 20px;
+    }
+    .texto-index, .texto-experience, .texto-roam, .texto-middle, .texto-jungle, .texto-gold, .texto-contacto{
+        font-size: 16px;
+    }
+}
+@media (wax-width:768px){
+    h1 {
+        font-size: 22px;
+    }
+    .texto-index, .texto-experience, .texto-roam, .texto-middle, .texto-jungle, .texto-gold, .texto-contacto{
+        font-size: 18px;
+    }
+}
+@media (wax-width:1024px){
+    h1 {
+        font-size: 28px;
+    }
+    .texto-index, .texto-experience, .texto-roam, .texto-middle, .texto-jungle, .texto-gold, .texto-contacto{
+        font-size: 20px;
+    }
+}
+/*Fin de las Media queries textos*/
