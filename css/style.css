@@ -283,18 +283,21 @@ footer .copyright {
   .mapa-index {
     width: 700px;
     height: auto;
+    margin: 7px;
   }
 }
 @media (wax-width: 768px) {
   .mapa-index {
     width: 600px;
     height: auto;
+    margin: 7px;
   }
 }
 @media (wax-width: 600px) {
   .mapa-index {
     width: 200px;
     height: auto;
+    margin: 7px;
   }
 }
 
