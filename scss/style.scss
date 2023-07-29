@@ -124,7 +124,20 @@ body{
         font-size: 1.125rem;
     }
 }
+/*ESTILOS INDEX*/
+div.campo{
+    display: flex;
+    justify-content: center;
 
+    img.mapa-index{
+        @include sizes (700px,auto)
+    }
+
+    &:active{
+        transform: scale(1.3)
+    }
+}
+/*FIN ESTILOS INDEX*/
 /*ESTILOS GALERIAS*/
 #galeria{
     img{

@@ -107,6 +107,20 @@ body section img {
   font-size: 1.125rem;
 }
 
+/*ESTILOS INDEX*/
+div.campo {
+  display: flex;
+  justify-content: center;
+}
+div.campo img.mapa-index {
+  width: 700px;
+  height: auto;
+}
+div.campo:active {
+  transform: scale(1.3);
+}
+
+/*FIN ESTILOS INDEX*/
 /*ESTILOS GALERIAS*/
 #galeria img {
   width: 100%;
