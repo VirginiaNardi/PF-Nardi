@@ -16,6 +16,11 @@ nav {
   width: 100%;
   height: 80px;
 }
+nav .menu {
+  z-index: 100;
+  position: absolute;
+  overflow: hidden;
+}
 nav .enlace {
   position: absolute;
   padding: 20px 50px;

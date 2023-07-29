@@ -18,6 +18,12 @@ nav{
     background-color: $colorA;
     @include sizes (100%, 80px);
 
+    .menu {
+        z-index: 100;
+        position: absolute;
+        overflow: hidden;
+    }
+
     .enlace{
         position: absolute;
         padding: 20px 50px;
