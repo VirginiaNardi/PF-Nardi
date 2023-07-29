@@ -98,6 +98,11 @@ body section img {
   height: 390px;
   border: 1px solid whitesmoke;
 }
+body section .nombre-img {
+  font-size: 15px;
+  color: #fce97f;
+  cursor: pointer;
+}
 
 .desarrollo {
   max-width: 900px;

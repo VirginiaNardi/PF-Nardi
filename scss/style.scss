@@ -112,6 +112,13 @@ body{
             @include sizes (240px,390px);
             border: 1px solid $colorG;
         }
+
+        .nombre-img{
+            font-size: 15px;
+            color: $colorI;
+            cursor: pointer;
+        }
+
     }
 }
 
