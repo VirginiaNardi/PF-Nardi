@@ -293,9 +293,9 @@ footer .copyright {
     margin: 7px;
   }
 }
-@media (wax-width: 600px) {
+@media (wax-width: 500px) {
   .mapa-index {
-    width: 200px;
+    width: 180px;
     height: auto;
     margin: 7px;
   }
