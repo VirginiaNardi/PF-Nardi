@@ -14,12 +14,14 @@
 }
 
 /*ESTILOS HEADER*/
+header{
+    z-index: 100;
+}
 nav{
     background-color: $colorA;
     @include sizes (100%, 80px);
 
     .menu {
-        z-index: 100;
         position: absolute;
         overflow: hidden;
     }
@@ -146,6 +148,8 @@ div.campo{
 /*FIN ESTILOS INDEX*/
 /*ESTILOS GALERIAS*/
 #galeria{
+    position: relative;
+    z-index: 50;
     img{
         @include sizes (100%, auto);
         border: 1px solid $colorG;
