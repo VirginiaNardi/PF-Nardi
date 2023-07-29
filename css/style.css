@@ -277,5 +277,24 @@ footer .copyright {
   }
 }
 /*Fin de las Media queries textos*/
+/*media de la imagen del index*/
+@media (wax-width: 952px) {
+  .mapa-index {
+    width: 700px;
+    height: auto;
+  }
+}
+@media (wax-width: 768px) {
+  .mapa-index {
+    width: 600px;
+    height: auto;
+  }
+}
+@media (wax-width: 600px) {
+  .mapa-index {
+    width: 400px;
+    height: auto;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
