@@ -123,6 +123,7 @@ div.campo {
 div.campo img.mapa-index {
   width: 700px;
   height: auto;
+  padding: 7px;
 }
 div.campo:active {
   transform: scale(1.3);
@@ -141,7 +142,7 @@ div.campo:active {
 }
 #galeria .col-6 {
   margin: 0;
-  padding: 5px;
+  padding: 7px;
 }
 
 /*FIN ESTILOS GALERIAS*/
@@ -292,7 +293,7 @@ footer .copyright {
 }
 @media (wax-width: 600px) {
   .mapa-index {
-    width: 400px;
+    width: 200px;
     height: auto;
   }
 }
