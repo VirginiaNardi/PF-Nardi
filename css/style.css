@@ -293,14 +293,14 @@ footer .copyright {
 }
 @media (wax-width: 600px) {
   div .mapa-index {
-    width: 75%;
+    width: 50%;
     height: auto;
     margin: 7px;
   }
 }
 @media (wax-width: 400px) {
   div .mapa-index {
-    width: 50%;
+    width: 25%;
     height: auto;
     margin: 7px;
   }
