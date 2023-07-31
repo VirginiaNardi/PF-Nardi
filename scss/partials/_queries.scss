@@ -97,7 +97,7 @@
 /*Fin de las Media queries textos*/
 
 /*media de la imagen del index*/
-@media (wax-width:952px){
+@media (wax-width:858px){
     div{
         .mapa-index{
             width: 700px;
@@ -108,10 +108,10 @@
     
 }
 
-@media (wax-width:768px){
+@media (wax-width:600px){
     div{
         .mapa-index{
-            width: 600px;
+            width: 75%;
             height: auto;
             margin: 7px;
         }
@@ -119,10 +119,10 @@
     
 }
 
-@media (wax-width:500px){
+@media (wax-width:400px){
     div{
         .mapa-index{
-            width: 180px;
+            width: 200px;
             height: auto;
             margin: 7px;
         }
