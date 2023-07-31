@@ -141,12 +141,15 @@ body{
 }
 /*ESTILOS INDEX*/
 div.campo{
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
 
     img.mapa-index{
-        @include sizes (700px,auto);
-        margin:7px;
+        @include sizes (100%,auto);
+        // @include sizes (700px,auto);
+        
         
     }
 

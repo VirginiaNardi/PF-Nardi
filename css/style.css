@@ -122,13 +122,14 @@ body section .nombre-img {
 
 /*ESTILOS INDEX*/
 div.campo {
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
 }
 div.campo img.mapa-index {
-  width: 700px;
+  width: 100%;
   height: auto;
-  margin: 7px;
 }
 div.campo:active {
   transform: scale(1.3);
@@ -284,28 +285,5 @@ footer .copyright {
 }
 /*Fin de las Media queries textos*/
 /*media de la imagen del index*/
-@media (wax-width: 858px) {
-  div img.mapa-index {
-    width: 600px;
-    height: auto;
-    margin: 7px;
-  }
-}
-@media (wax-width: 600px) {
-  div img.mapa-index {
-    width: 200px;
-    height: auto;
-    margin: 7px;
-    transform: none;
-  }
-}
-@media (wax-width: 400px) {
-  div img.mapa-index {
-    width: 95px;
-    height: auto;
-    margin: 7px;
-    transform: none;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
