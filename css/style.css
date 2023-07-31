@@ -130,9 +130,9 @@ div.campo img.mapa-index {
   height: auto;
   margin: 7px;
 }
-div.campo:active {
+/* div.campo:active {
   transform: scale(1.3);
-}
+} */
 
 /*FIN ESTILOS INDEX*/
 /*ESTILOS GALERIAS*/
